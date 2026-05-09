@@ -8,11 +8,10 @@ REPLY_TEXT = """
 👋 Привет! Вот полезные ссылки:
 """
 
-# Две кнопки в ряд
 keyboard = [
     [
-        InlineKeyboardButton("📋 Составы", url="https://ССЫЛКА_НА_СОСТАВЫ"),
-        InlineKeyboardButton("📅 Расписание", url="https://ССЫЛКА_НА_РАСПИСАНИЕ"),
+        InlineKeyboardButton("📋 Составы", url="https://dota2.fandom.com/wiki/Category:Hero_minimap_icons"),
+        InlineKeyboardButton("📅 Расписание", url="https://www.hltv.org/events/9166/parken-challenger-championship-season-6"),
     ]
 ]
 reply_markup = InlineKeyboardMarkup(keyboard)
