@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import os
 
-TOKEN = os.environ.get("8693739123:AAGnYR6AgtG7vJz83s2k4tx_fmsdfDRfp14")
+TOKEN = os.environ.get("TOKEN")
 
 REPLY_MESSAGE = """
 👋 Привет! Вот полезные ссылки:
