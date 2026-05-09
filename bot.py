@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 from telegram import Update
 
 TOKEN = os.environ.get("TOKEN")
-IMAGE_URL = "https://i.imgur.com/Hs6XKYX.png"
+IMAGE_URL = "https://i.postimg.cc/GhLnnLSw/1920h1080.png"
 REPLY_TEXT = "👋 Привет! Вот полезные ссылки:"
 
 async def send_reply(chat_id, reply_to_message_id):
