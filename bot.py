@@ -7,9 +7,9 @@ TOKEN = os.environ.get("TOKEN")
 IMAGE_URL = "https://i.postimg.cc/GhLnnLSw/1920h1080.png"
 
 REPLY_TEXT = (
-    '<tg-emoji emoji-id="5411126259965006700">👋</tg-emoji> Привет!\n\n'
-    '<tg-emoji emoji-id="5408970607289208310">😊</tg-emoji> У нас позитивный чат: без ругани, рекламы и лишнего негатива\n\n'
-    '<tg-emoji emoji-id="5418339700488311300">👇</tg-emoji> Полезные ссылки — ниже'
+    'Привет! <tg-emoji emoji-id="5411126259965006700">👋</tg-emoji>\n\n'
+    'У нас позитивный чат: без ругани, рекламы и лишнего негатива <tg-emoji emoji-id="5408970607289208310">😊</tg-emoji>\n\n'
+    'Полезные ссылки — ниже <tg-emoji emoji-id="5418339700488311300">👇</tg-emoji>'
 )
 
 async def send_reply(chat_id, reply_to_message_id):
@@ -24,21 +24,24 @@ async def send_reply(chat_id, reply_to_message_id):
             "inline_keyboard": [
                 [
                     {
-                        "text": "5206217957297920049 Составы",
+                        "text": "Составы",
                         "url": "https://dota2.fandom.com/wiki/Category:Hero_minimap_icons",
-                        "style": "primary"
+                        "style": "primary",
+                        "icon_custom_emoji_id": "5206217957297920049"
                     },
                     {
-                        "text": "5418003632182304206 Расписание",
+                        "text": "Расписание",
                         "url": "https://www.hltv.org/events/9166/parken-challenger-championship-season-6",
-                        "style": "success"
+                        "style": "success",
+                        "icon_custom_emoji_id": "5418003632182304206"
                     }
                 ],
                 [
                     {
-                        "text": "5208844132230930228 Трансляция",
+                        "text": "Трансляция",
                         "url": "https://example.com",
-                        "style": "danger"
+                        "style": "danger",
+                        "icon_custom_emoji_id": "5208844132230930228"
                     }
                 ]
             ]
