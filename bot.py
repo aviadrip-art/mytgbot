@@ -41,7 +41,7 @@ async def send_reply(chat_id, reply_to_message_id):
                         "text": "Трансляция",
                         "url": "https://example.com",
                         "style": "danger",
-                        "icon_custom_emoji_id": "5208844132230930228"
+                        "icon_custom_emoji_id": "5417973511576658038"
                     }
                 ]
             ]
